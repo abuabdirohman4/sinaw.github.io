@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap");
+body {
+  font-family: 'Quicksand';
+  background-image: url(/img/hero-illustration.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 120%;
+  color: #232323;
+}
+
+h3 {
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 120%;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 150%;
+  color: #728196;
+}
+
+.bg-main-green {
+  background-color: #079911;
+}
+
+.btn-main-green {
+  width: 152px;
+  height: 47px;
+  top: 528px;
+  background-color: #079911;
+}
+
+.btn-main-green:hover {
+  background-color: #05680c;
+}
+
+.btn-secondary-white {
+  width: 185px;
+  height: 47px;
+  top: 528px;
+}
+
+.btn-tertiary {
+  border: none;
+}
+
+.btn-black {
+  width: 152px;
+  height: 47px;
+  top: 528px;
+  background-color: #232323;
+}
+
+.btn-black:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black !important;
+}
+
+button.btn {
+  font-weight: bold;
+}
+
+.navbar .navbar-brand:nth-child(2) {
+  position: relative;
+  left: 4.5rem;
+}
+
+.hero {
+  margin-top: 13rem;
+  margin-bottom: 15rem;
+}
+
+.value p {
+  text-align: center;
+}
+
+.value .col-4 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.value .col-4 img {
+  margin-right: 1rem;
+}
+
+.content-1 {
+  margin-top: 10rem;
+}
+
+.content-1 h3 {
+  text-align: left;
+  word-wrap: break-word;
+  width: 89%;
+  margin-bottom: 2rem;
+}
+
+.content-1 p {
+  word-wrap: break-word;
+  width: 80%;
+  margin-bottom: 2rem;
+}
+
+.content-2 {
+  margin-top: 10rem;
+}
+
+.content-2 h3 {
+  text-align: left;
+  word-wrap: break-word;
+  width: 73%;
+  margin-bottom: 2rem;
+}
+
+.content-2 p {
+  word-wrap: break-word;
+  width: 80%;
+  margin-bottom: 2rem;
+}
+
+.price-list .card {
+  background-color: #EAF5EB;
+}
+
+.price-list .card #pills-tab {
+  background-color: #CAECC8;
+}
+
+.price-list .card #pills-tab .nav-link {
+  color: grey;
+}
+
+.price-list .card #pills-tab .nav-link.active {
+  background-color: #079911;
+  color: white;
+}
+
+.price-list .card #pills-tabContent #pills-month .card {
+  border: 3px solid black;
+  border-radius: 30px;
+}
+
+.price-list .card #pills-tabContent #pills-month .card .card-title {
+  color: #232323;
+  font-weight: 700;
+}
+
+.price-list .card #pills-tabContent #pills-month .card .card-body {
+  padding: 2rem 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.price-list .card #pills-tabContent #pills-month .card .card-body div.card-text h3, .price-list .card #pills-tabContent #pills-month .card .card-body div.card-text p {
+  display: inline;
+}
+
+.price-list .card #pills-tabContent #pills-month .card .card-body div.card-text p {
+  color: #232323;
+}
+
+.price-list .card #pills-tabContent #pills-month .card .card-body .card-text {
+  font-size: 16px;
+}
+
+.price-list .card #pills-tabContent #pills-month .card.featured {
+  border: 3px solid #079911;
+}
+
+.price-list .card #pills-tabContent #pills-month .card.featured div.card-text h3, .price-list .card #pills-tabContent #pills-month .card.featured div.card-text p {
+  color: #079911;
+}
+
+.testimonials {
+  margin-top: 15rem;
+}
+
+.testimonials .col-2 img {
+  position: relative;
+  bottom: 3rem;
+}
+
+.testimonials .col-5 {
+  font-size: 19px;
+}
+
+.testimonials .col-5 .title {
+  color: #232323;
+  font-weight: 700;
+}
+
+.testimonials .col-5 .author {
+  color: #079911;
+  font-weight: 700;
+}
+
+.call-to-action {
+  margin-top: 10rem;
+}
+
+.call-to-action .card {
+  background-color: #EAF5EB;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  border-radius: 50px;
+  background-image: url(/img/call-to-action.svg);
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+
+.call-to-action .card h3 span {
+  color: #079911;
+}
+
+.footer {
+  margin-top: 10rem;
+}
+
+.footer .form-check-input {
+  border-color: #079911;
+}
+
+.footer .form-check-input:checked {
+  background-color: #EAF5EB;
+  border-color: #079911;
+}
+
+.footer .row {
+  width: 175%;
+}
+/*# sourceMappingURL=style.css.map */

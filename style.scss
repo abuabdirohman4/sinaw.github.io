@@ -1,0 +1,247 @@
+// Variables
+$main-green: #079911;
+$light-green: #EAF5EB;
+$black : #232323;
+
+// Font
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap');
+
+// Main Style
+body {
+    font-family: 'Quicksand';
+    background-image: url(/img/hero-illustration.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+h1 {
+    // font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 120%;
+    color: $black ;
+}
+h3 {
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 120%;
+}
+p {
+    font-size: 20px;
+    // line-height: 30px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 150%;
+    color: #728196;
+}
+.bg-main-green {
+    background-color: $main-green;
+}
+
+// Button
+.btn {
+    &-main-green {
+        width: 152px;
+        height: 47px;
+        top: 528px;
+        background-color: $main-green;
+        &:hover {
+            background-color: darken($color: $main-green, $amount: 10%);
+        }
+    }
+    &-secondary-white {
+        width: 185px;
+        height: 47px;
+        top: 528px;
+    }
+    &-tertiary {
+        border: none;
+    }
+    &-black {
+        width: 152px;
+        height: 47px;
+        top: 528px;
+        background-color: $black;
+        &:hover {
+            background-color: white;
+            border: 1px solid black;
+            color: black!important;
+        }
+    }
+}
+button.btn {
+    font-weight: bold;
+}
+
+// Navbar
+.navbar {
+    .navbar-brand:nth-child(2) {
+        position: relative;
+        left: 4.5rem;
+    }
+}
+
+// Hero
+.hero {
+    margin-top: 13rem;
+    margin-bottom: 15rem;
+}
+
+// Value
+.value {
+    p {
+        text-align: center;
+    }
+    .col-4 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 18px;
+        img {
+            margin-right: 1rem;
+        }
+    }
+}
+
+// Content 1
+.content-1 {
+    margin-top: 10rem;
+    h3 {
+        text-align: left;
+        word-wrap: break-word;
+        width: 89%;
+        margin-bottom: 2rem;
+    }
+    p {
+        word-wrap: break-word;
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+}
+
+// Content-2
+.content-2 {
+    margin-top: 10rem;
+    h3 {
+        text-align: left;
+        word-wrap: break-word;
+        width: 73%;
+        margin-bottom: 2rem;
+    }
+    p {
+        word-wrap: break-word;
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+}
+
+// Price List
+.price-list {
+    .card {
+        background-color: $light-green;
+        #pills-tab {
+            background-color: #CAECC8;
+            .nav-link {
+                color: grey;
+                &.active {
+                    background-color: $main-green;
+                    color: white;
+                }
+            }
+        }
+        #pills-tabContent {
+            #pills-month {
+                .card {
+                    border: 3px solid black;
+                    border-radius: 30px;
+                    .card-title {
+                        color: $black ;
+                        font-weight: 700;
+                    }
+                    .card-body {
+                        padding: 2rem 3rem;
+                        display: flex;
+                        flex-direction: column;
+                        div.card-text {
+                            h3, p {
+                                display: inline;
+                            }
+                            p {
+                                color: $black;
+                            }
+                        }
+                        .card-text {
+                            font-size: 16px;
+                        }
+                    }
+                    &.featured {
+                        border: 3px solid $main-green;
+                        div.card-text {
+                            h3, p {
+                                color: $main-green;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Tesitmonials
+.testimonials {
+    margin-top: 15rem;
+    .col-2 {
+        img {
+            position: relative;
+            bottom: 3rem;
+        }
+    }
+    .col-5 {
+        font-size: 19px;
+        .title {
+            color: $black;
+            font-weight: 700;
+        }
+        .author {
+            color: $main-green;
+            font-weight: 700;
+        }
+    }
+}
+
+// Call To Action
+.call-to-action {
+    margin-top: 10rem;
+    .card {
+        background-color: $light-green;
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+        border-radius: 50px;
+        background-image: url(/img/call-to-action.svg);
+        background-position: top right;
+        background-repeat: no-repeat;
+        h3 {
+            span {
+                color: $main-green;
+            }
+        }
+    }
+}
+
+// Footer 
+.footer {
+    margin-top: 10rem;
+    .form-check-input {
+        border-color: $main-green;
+        &:checked {
+            background-color: $light-green;
+            border-color: $main-green;
+        }
+    }
+    .row {
+        width: 175%;
+    }
+}
