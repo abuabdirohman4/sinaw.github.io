@@ -1,1 +1,1 @@
-# sc-12-online-couse-lp
+# Online Couse Landing Page - Sinaw (Done)
